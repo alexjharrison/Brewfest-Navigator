@@ -21,9 +21,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "node_modules/primevue",
-    "node_modules/vue-router"
+    "src/**/*.vue"
   ],
   "references": [
     {
