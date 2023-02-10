@@ -8,7 +8,7 @@ export default [
     breweryName: "KCBC - Kings County Brewers Collective",
     abv: 8,
     ibu: null,
-    score: 3.87162,
+    untappdScore: 3.87162,
     beerUrl:
       "https://untappd.com/b/kcbc-kings-county-brewers-collective-what-we-don-t-see/1913702",
     breweryUrl:
@@ -26,7 +26,7 @@ export default [
     breweryName: "KCBC - Kings County Brewers Collective",
     abv: 5.2,
     ibu: null,
-    score: 3.96684,
+    untappdScore: 3.96684,
     beerUrl:
       "https://untappd.com/b/kcbc-kings-county-brewers-collective-savage-crush/3059764",
     breweryUrl:
@@ -44,7 +44,7 @@ export default [
     breweryName: "Twin Elephant Brewing Company",
     abv: 6.4,
     ibu: null,
-    score: 3.7978,
+    untappdScore: 3.7978,
     beerUrl:
       "https://untappd.com/b/twin-elephant-brewing-company-rugged-snuggle/1541885",
     breweryUrl: "https://untappd.com/w/twin-elephant-brewing-company/268063",
@@ -61,7 +61,7 @@ export default [
     breweryName: "Skygazer Brewing Company",
     abv: 5.5,
     ibu: null,
-    score: 3.76894,
+    untappdScore: 3.76894,
     beerUrl:
       "https://untappd.com/b/skygazer-brewing-company-sour-crusher-apricot/5030496",
     breweryUrl: "https://untappd.com/w/skygazer-brewing-company/310900",
@@ -78,7 +78,7 @@ export default [
     breweryName: "Skygazer Brewing Company",
     abv: 7,
     ibu: null,
-    score: 3.95451,
+    untappdScore: 3.95451,
     beerUrl:
       "https://untappd.com/b/skygazer-brewing-company-titan-three-sour-ipa-mango-apricot-vanilla-beans-and-milk-sugar/5058465",
     breweryUrl: "https://untappd.com/w/skygazer-brewing-company/310900",
@@ -95,7 +95,7 @@ export default [
     breweryName: "Skygazer Brewing Company",
     abv: 5.5,
     ibu: null,
-    score: 3.72755,
+    untappdScore: 3.72755,
     beerUrl:
       "https://untappd.com/b/skygazer-brewing-company-watercolors-go-to-s-cherry-peach/5215862",
     breweryUrl: "https://untappd.com/w/skygazer-brewing-company/310900",
@@ -112,7 +112,7 @@ export default [
     breweryName: "Brooklyn Cider House",
     abv: 5,
     ibu: null,
-    score: 3.75237,
+    untappdScore: 3.75237,
     beerUrl: "https://untappd.com/b/brooklyn-cider-house-little-wild/4259462",
     breweryUrl: "https://untappd.com/w/brooklyn-cider-house/234267",
     isVip: false,
@@ -128,7 +128,7 @@ export default [
     breweryName: "Jack's Hard Cider",
     abv: 5,
     ibu: null,
-    score: 3.59121,
+    untappdScore: 3.59121,
     beerUrl:
       "https://untappd.com/b/jack-s-hard-cider-sweet-helen-s-blend/251480",
     breweryUrl: "https://untappd.com/w/jack-s-hard-cider/4755",
@@ -144,13 +144,14 @@ export default [
     breweryName: "Buttzville Brewing Company",
     abv: 4.7,
     ibu: 19,
-    score: 3.61912,
+    untappdScore: 3.61912,
     beerUrl:
       "https://untappd.com/b/buttzville-brewing-company-norwegian-sprinter/4431022",
     breweryUrl: "https://untappd.com/w/buttzville-brewing-company/500844",
     isVip: false,
     id: 4431022,
     table: 25,
+    substyle: null,
   },
   {
     thumbnail:
@@ -161,7 +162,7 @@ export default [
     breweryName: "Buttzville Brewing Company",
     abv: 8.1,
     ibu: 54,
-    score: 3.59297,
+    untappdScore: 3.59297,
     beerUrl:
       "https://untappd.com/b/buttzville-brewing-company-crack-of-dawn/5191468",
     breweryUrl: "https://untappd.com/w/buttzville-brewing-company/500844",
@@ -178,7 +179,7 @@ export default [
     breweryName: "Buttzville Brewing Company",
     abv: 11,
     ibu: 71,
-    score: 3.68166,
+    untappdScore: 3.68166,
     beerUrl:
       "https://untappd.com/b/buttzville-brewing-company-out-of-the-saddle/4954947",
     breweryUrl: "https://untappd.com/w/buttzville-brewing-company/500844",
@@ -195,7 +196,7 @@ export default [
     breweryName: "Last Wave Brewing Co.",
     abv: 5.2,
     ibu: null,
-    score: 3.92446,
+    untappdScore: 3.92446,
     beerUrl: "https://untappd.com/b/last-wave-brewing-co-morning-glass/3314638",
     breweryUrl: "https://untappd.com/w/last-wave-brewing-co/342748",
     isVip: false,
@@ -211,7 +212,7 @@ export default [
     breweryName: "Last Wave Brewing Co.",
     abv: 6.7,
     ibu: 30,
-    score: 3.6415,
+    untappdScore: 3.6415,
     beerUrl: "https://untappd.com/b/last-wave-brewing-co-quiver/3139237",
     breweryUrl: "https://untappd.com/w/last-wave-brewing-co/342748",
     isVip: false,
@@ -227,7 +228,7 @@ export default [
     breweryName: "Wild Air Beerworks",
     abv: 4.5,
     ibu: 8,
-    score: 3.76535,
+    untappdScore: 3.76535,
     beerUrl:
       "https://untappd.com/b/wild-air-beerworks-inherent-vice-lager/4994462",
     breweryUrl: "https://untappd.com/w/wild-air-beerworks/528205",
@@ -244,7 +245,7 @@ export default [
     breweryName: "Wild Air Beerworks",
     abv: 5.7,
     ibu: null,
-    score: 3.74637,
+    untappdScore: 3.74637,
     beerUrl:
       "https://untappd.com/b/wild-air-beerworks-eternal-fugitive/5170826",
     breweryUrl: "https://untappd.com/w/wild-air-beerworks/528205",
@@ -261,7 +262,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 6.8,
     ibu: 36,
-    score: 3.68485,
+    untappdScore: 3.68485,
     beerUrl:
       "https://untappd.com/b/ross-brewing-company-milk-and-cookies/5204681",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
@@ -278,7 +279,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 4.1,
     ibu: 4,
-    score: 3.70101,
+    untappdScore: 3.70101,
     beerUrl: "https://untappd.com/b/ross-brewing-company-berry-salty/5001327",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
     isVip: false,
@@ -294,7 +295,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 11.7,
     ibu: 50,
-    score: 3.83881,
+    untappdScore: 3.83881,
     beerUrl:
       "https://untappd.com/b/ross-brewing-company-brux-royale-belgian-chocolate-stout/4198339",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
@@ -311,7 +312,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 5.2,
     ibu: 19,
-    score: 3.72342,
+    untappdScore: 3.72342,
     beerUrl: "https://untappd.com/b/ross-brewing-company-fishfinder/4429625",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
     isVip: false,
@@ -327,7 +328,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 5.1,
     ibu: 16,
-    score: 3.68348,
+    untappdScore: 3.68348,
     beerUrl: "https://untappd.com/b/ross-brewing-company-manasquan-wit/3706383",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
     isVip: false,
@@ -343,7 +344,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 5.2,
     ibu: 23,
-    score: 3.70333,
+    untappdScore: 3.70333,
     beerUrl:
       "https://untappd.com/b/ross-brewing-company-shrewsbury-lager/3622119",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
@@ -360,7 +361,7 @@ export default [
     breweryName: "Ross Brewing Company",
     abv: 7.8,
     ibu: 78,
-    score: 3.68336,
+    untappdScore: 3.68336,
     beerUrl: "https://untappd.com/b/ross-brewing-company-navesink-ipa/2059122",
     breweryUrl: "https://untappd.com/w/ross-brewing-company/455917",
     isVip: false,
@@ -376,7 +377,7 @@ export default [
     breweryName: "Hackensack Brewing",
     abv: 5,
     ibu: null,
-    score: 3.7087,
+    untappdScore: 3.7087,
     beerUrl: "https://untappd.com/b/hackensack-brewing-sublime-prince/5107460",
     breweryUrl: "https://untappd.com/w/hackensack-brewing/417861",
     isVip: false,
@@ -392,7 +393,7 @@ export default [
     breweryName: "Hackensack Brewing",
     abv: 5.1,
     ibu: null,
-    score: 3.71915,
+    untappdScore: 3.71915,
     beerUrl:
       "https://untappd.com/b/hackensack-brewing-palisades-pale-ale/5089592",
     breweryUrl: "https://untappd.com/w/hackensack-brewing/417861",
@@ -408,12 +409,13 @@ export default [
     breweryName: "Hackensack Brewing",
     abv: 5.1,
     ibu: null,
-    score: 3.72977,
+    untappdScore: 3.72977,
     beerUrl: "https://untappd.com/b/hackensack-brewing-jersey-common/5123922",
     breweryUrl: "https://untappd.com/w/hackensack-brewing/417861",
     isVip: false,
     id: 5123922,
     table: 57,
+    substyle: null,
   },
   {
     thumbnail:
@@ -423,12 +425,13 @@ export default [
     breweryName: "Hackensack Brewing",
     abv: 8.5,
     ibu: 15,
-    score: 3.70486,
+    untappdScore: 3.70486,
     beerUrl: "https://untappd.com/b/hackensack-brewing-blizzard-of-96/3069553",
     breweryUrl: "https://untappd.com/w/hackensack-brewing/417861",
     isVip: false,
     id: 3069553,
     table: 57,
+    substyle: null,
   },
   {
     thumbnail:
@@ -439,7 +442,7 @@ export default [
     breweryName: "ManaFirkin Brewing Co.",
     abv: 5.8,
     ibu: 34,
-    score: 3.92265,
+    untappdScore: 3.92265,
     beerUrl:
       "https://untappd.com/b/manafirkin-brewing-co-done-in-a-jiffy/3050196",
     breweryUrl: "https://untappd.com/w/manafirkin-brewing-co/341365",
@@ -456,7 +459,7 @@ export default [
     breweryName: "ManaFirkin Brewing Co.",
     abv: 6.1,
     ibu: null,
-    score: 3.61776,
+    untappdScore: 3.61776,
     beerUrl:
       "https://untappd.com/b/manafirkin-brewing-co-ozzie-orange-peel/3798244",
     breweryUrl: "https://untappd.com/w/manafirkin-brewing-co/341365",
@@ -473,7 +476,7 @@ export default [
     breweryName: "ManaFirkin Brewing Co.",
     abv: 6,
     ibu: null,
-    score: 3.64179,
+    untappdScore: 3.64179,
     beerUrl:
       "https://untappd.com/b/manafirkin-brewing-co-good-karmamile/2118336",
     breweryUrl: "https://untappd.com/w/manafirkin-brewing-co/341365",
@@ -490,7 +493,7 @@ export default [
     breweryName: "Montclair Brewery",
     abv: 7,
     ibu: null,
-    score: 3.70367,
+    untappdScore: 3.70367,
     beerUrl: "https://untappd.com/b/montclair-brewery-maya-double-ipa/4755210",
     breweryUrl: "https://untappd.com/w/montclair-brewery/405858",
     isVip: false,
@@ -506,7 +509,7 @@ export default [
     breweryName: "Montclair Brewery",
     abv: 7.8,
     ibu: null,
-    score: 3.62372,
+    untappdScore: 3.62372,
     beerUrl:
       "https://untappd.com/b/montclair-brewery-national-emergency/4291085",
     breweryUrl: "https://untappd.com/w/montclair-brewery/405858",
@@ -523,7 +526,7 @@ export default [
     breweryName: "Montclair Brewery",
     abv: 9.1,
     ibu: null,
-    score: 3.78673,
+    untappdScore: 3.78673,
     beerUrl:
       "https://untappd.com/b/montclair-brewery-black-is-beautiful-w-baobab/3858184",
     breweryUrl: "https://untappd.com/w/montclair-brewery/405858",
@@ -540,7 +543,7 @@ export default [
     breweryName: "Four City Brewing Company",
     abv: 4.7,
     ibu: null,
-    score: 3.76486,
+    untappdScore: 3.76486,
     beerUrl:
       "https://untappd.com/b/four-city-brewing-company-four-city-stout/4213739",
     breweryUrl: "https://untappd.com/w/four-city-brewing-company/401658",
@@ -557,7 +560,7 @@ export default [
     breweryName: "Four City Brewing Company",
     abv: 7,
     ibu: null,
-    score: 3.89988,
+    untappdScore: 3.89988,
     beerUrl:
       "https://untappd.com/b/four-city-brewing-company-the-miseducation-of-loral-hops/3693748",
     breweryUrl: "https://untappd.com/w/four-city-brewing-company/401658",
@@ -574,7 +577,7 @@ export default [
     breweryName: "Gearblock Brewing Company",
     abv: 7,
     ibu: null,
-    score: 3.71506,
+    untappdScore: 3.71506,
     beerUrl:
       "https://untappd.com/b/gearblock-brewing-company-breaker-bar/5210369",
     breweryUrl: "https://untappd.com/w/gearblock-brewing-company/398869",
@@ -590,12 +593,13 @@ export default [
     breweryName: "Gearblock Brewing Company",
     abv: 4.5,
     ibu: null,
-    score: 3.71291,
+    untappdScore: 3.71291,
     beerUrl: "https://untappd.com/b/gearblock-brewing-company-k-turn/5210389",
     breweryUrl: "https://untappd.com/w/gearblock-brewing-company/398869",
     isVip: false,
     id: 5210389,
     table: 17,
+    substyle: null,
   },
   {
     thumbnail:
@@ -606,7 +610,7 @@ export default [
     breweryName: "Backward Flag Brewing Co",
     abv: 7.3,
     ibu: null,
-    score: 3.75383,
+    untappdScore: 3.75383,
     beerUrl:
       "https://untappd.com/b/backward-flag-brewing-co-mil-spec-black-ipa/1392054",
     breweryUrl: "https://untappd.com/w/backward-flag-brewing-co/227511",
@@ -623,7 +627,7 @@ export default [
     breweryName: "Backward Flag Brewing Co",
     abv: 7,
     ibu: null,
-    score: 3.64552,
+    untappdScore: 3.64552,
     beerUrl:
       "https://untappd.com/b/backward-flag-brewing-co-oak-armored-ale/2024751",
     breweryUrl: "https://untappd.com/w/backward-flag-brewing-co/227511",
@@ -640,7 +644,7 @@ export default [
     breweryName: "902 Brewing",
     abv: 7.1,
     ibu: null,
-    score: 3.72835,
+    untappdScore: 3.72835,
     beerUrl: "https://untappd.com/b/902-brewing-stout-de-muerto/5048444",
     breweryUrl: "https://untappd.com/w/902-brewing/42165",
     isVip: false,
@@ -656,7 +660,7 @@ export default [
     breweryName: "902 Brewing",
     abv: 5.5,
     ibu: 15,
-    score: 3.68317,
+    untappdScore: 3.68317,
     beerUrl:
       "https://untappd.com/b/902-brewing-8-anniversary-premium-lager/5193470",
     breweryUrl: "https://untappd.com/w/902-brewing/42165",
@@ -673,7 +677,7 @@ export default [
     breweryName: "Downeast Cider House",
     abv: 5,
     ibu: null,
-    score: 3.90516,
+    untappdScore: 3.90516,
     beerUrl: "https://untappd.com/b/downeast-cider-house-blackberry/4001156",
     breweryUrl: "https://untappd.com/w/downeast-cider-house/22486",
     isVip: false,
@@ -689,7 +693,7 @@ export default [
     breweryName: "Downeast Cider House",
     abv: 5,
     ibu: null,
-    score: 3.97398,
+    untappdScore: 3.97398,
     beerUrl: "https://untappd.com/b/downeast-cider-house-strawberry/3886141",
     breweryUrl: "https://untappd.com/w/downeast-cider-house/22486",
     isVip: false,
@@ -705,7 +709,7 @@ export default [
     breweryName: "Ace Cider (The California Cider Company)",
     abv: 5,
     ibu: null,
-    score: 3.97058,
+    untappdScore: 3.97058,
     beerUrl:
       "https://untappd.com/b/ace-cider-the-california-cider-company-guava-cider/3351998",
     breweryUrl:
@@ -723,7 +727,7 @@ export default [
     breweryName: "Ace Cider (The California Cider Company)",
     abv: 5,
     ibu: null,
-    score: 3.85804,
+    untappdScore: 3.85804,
     beerUrl:
       "https://untappd.com/b/ace-cider-the-california-cider-company-mango-cider/3865969",
     breweryUrl:
@@ -741,7 +745,7 @@ export default [
     breweryName: "Ace Cider (The California Cider Company)",
     abv: 5,
     ibu: null,
-    score: 3.78589,
+    untappdScore: 3.78589,
     beerUrl:
       "https://untappd.com/b/ace-cider-the-california-cider-company-ace-pineapple-cider/602768",
     breweryUrl:
@@ -758,13 +762,15 @@ export default [
     breweryName: "Eagle Brewery (formerly Charles Wells)",
     abv: 5.2,
     ibu: 18,
-    score: 3.55456,
+    untappdScore: 3.55456,
     beerUrl:
       "https://untappd.com/b/eagle-brewery-formerly-charles-wells-banana-bread-beer/5839",
     breweryUrl:
       "https://untappd.com/w/eagle-brewery-formerly-charles-wells/1348",
     isVip: false,
     id: 5839,
+    substyle: null,
+    table: null,
   },
   {
     thumbnail:
@@ -775,13 +781,14 @@ export default [
     breweryName: "Eagle Brewery (formerly Charles Wells)",
     abv: 5.2,
     ibu: 25,
-    score: 3.67179,
+    untappdScore: 3.67179,
     beerUrl:
       "https://untappd.com/b/eagle-brewery-formerly-charles-wells-young-s-double-chocolate-stout/130571",
     breweryUrl:
       "https://untappd.com/w/eagle-brewery-formerly-charles-wells/1348",
     isVip: false,
     id: 130571,
+    table: null,
   },
   {
     thumbnail:
@@ -792,7 +799,7 @@ export default [
     breweryName: "Tripping Animals Brewing Co.",
     abv: 10,
     ibu: null,
-    score: 4.02886,
+    untappdScore: 4.02886,
     beerUrl:
       "https://untappd.com/b/tripping-animals-brewing-co-introspection/4514812",
     breweryUrl: "https://untappd.com/w/tripping-animals-brewing-co/309155",
@@ -809,7 +816,7 @@ export default [
     breweryName: "Tripping Animals Brewing Co.",
     abv: 5,
     ibu: null,
-    score: 3.72195,
+    untappdScore: 3.72195,
     beerUrl:
       "https://untappd.com/b/tripping-animals-brewing-co-shergar/5152695",
     breweryUrl: "https://untappd.com/w/tripping-animals-brewing-co/309155",
@@ -826,7 +833,7 @@ export default [
     breweryName: "Tripping Animals Brewing Co.",
     abv: 6,
     ibu: null,
-    score: 4.10247,
+    untappdScore: 4.10247,
     beerUrl:
       "https://untappd.com/b/tripping-animals-brewing-co-triple-berry-pie-piggy-pie-series/3828725",
     breweryUrl: "https://untappd.com/w/tripping-animals-brewing-co/309155",
@@ -843,7 +850,7 @@ export default [
     breweryName: "450 North Brewing Company",
     abv: 5.86,
     ibu: null,
-    score: 4.14154,
+    untappdScore: 4.14154,
     beerUrl:
       "https://untappd.com/b/450-north-brewing-company-slushy-xxl-nimbus-2000/3640207",
     breweryUrl: "https://untappd.com/w/450-north-brewing-company/40301",
@@ -860,7 +867,7 @@ export default [
     breweryName: "450 North Brewing Company",
     abv: 5.3,
     ibu: null,
-    score: 3.95954,
+    untappdScore: 3.95954,
     beerUrl:
       "https://untappd.com/b/450-north-brewing-company-slushy-xl-hawaiian-dole-whip/4970839",
     breweryUrl: "https://untappd.com/w/450-north-brewing-company/40301",
@@ -877,7 +884,7 @@ export default [
     breweryName: "450 North Brewing Company",
     abv: 5.3,
     ibu: null,
-    score: 3.98741,
+    untappdScore: 3.98741,
     beerUrl:
       "https://untappd.com/b/450-north-brewing-company-slushy-xl-cherry-cheesecake/4934988",
     breweryUrl: "https://untappd.com/w/450-north-brewing-company/40301",
@@ -894,7 +901,7 @@ export default [
     breweryName: "Downeast Cider House",
     abv: 5.1,
     ibu: null,
-    score: 3.89649,
+    untappdScore: 3.89649,
     beerUrl: "https://untappd.com/b/downeast-cider-house-pineapple/1944569",
     breweryUrl: "https://untappd.com/w/downeast-cider-house/22486",
     isVip: false,
@@ -910,7 +917,7 @@ export default [
     breweryName: "High Point Brewing Company (New Jersey)",
     abv: 7,
     ibu: 55,
-    score: 3.74657,
+    untappdScore: 3.74657,
     beerUrl:
       "https://untappd.com/b/high-point-brewing-company-new-jersey-spin-ipa/1922515",
     breweryUrl:
@@ -928,7 +935,7 @@ export default [
     breweryName: "High Point Brewing Company (New Jersey)",
     abv: 7,
     ibu: null,
-    score: 3.72263,
+    untappdScore: 3.72263,
     beerUrl:
       "https://untappd.com/b/high-point-brewing-company-new-jersey-ramstein-double-platinum-blonde/46871",
     breweryUrl:
@@ -946,7 +953,7 @@ export default [
     breweryName: "High Point Brewing Company (New Jersey)",
     abv: 7,
     ibu: 68,
-    score: 3.55845,
+    untappdScore: 3.55845,
     beerUrl:
       "https://untappd.com/b/high-point-brewing-company-new-jersey-ramstein-imperial-pils/159244",
     breweryUrl:
@@ -964,7 +971,7 @@ export default [
     breweryName: "Muckraker Beermaker",
     abv: 6,
     ibu: null,
-    score: 3.72254,
+    untappdScore: 3.72254,
     beerUrl:
       "https://untappd.com/b/muckraker-beermaker-blackflower-amlam-blend/5190167",
     breweryUrl: "https://untappd.com/w/muckraker-beermaker/80412",
@@ -981,7 +988,7 @@ export default [
     breweryName: "Muckraker Beermaker",
     abv: 6,
     ibu: null,
-    score: 3.87558,
+    untappdScore: 3.87558,
     beerUrl: "https://untappd.com/b/muckraker-beermaker-hazen/1674832",
     breweryUrl: "https://untappd.com/w/muckraker-beermaker/80412",
     isVip: false,
@@ -996,13 +1003,14 @@ export default [
     breweryName: "Jersey Girl Brewing",
     abv: 10,
     ibu: null,
-    score: 3.75635,
+    untappdScore: 3.75635,
     beerUrl:
       "https://untappd.com/b/jersey-girl-brewing-king-gambrinus-belgian-tripel/1735167",
     breweryUrl: "https://untappd.com/w/jersey-girl-brewing/194453",
     isVip: false,
     id: 1735167,
     table: 60,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1013,7 +1021,7 @@ export default [
     breweryName: "Jersey Girl Brewing",
     abv: 6.5,
     ibu: null,
-    score: 3.62452,
+    untappdScore: 3.62452,
     beerUrl: "https://untappd.com/b/jersey-girl-brewing-rake-breaker/1767368",
     breweryUrl: "https://untappd.com/w/jersey-girl-brewing/194453",
     isVip: false,
@@ -1029,7 +1037,7 @@ export default [
     breweryName: "Evil Twin Brewing NYC",
     abv: 7,
     ibu: null,
-    score: 4.08649,
+    untappdScore: 4.08649,
     beerUrl:
       "https://untappd.com/b/evil-twin-brewing-nyc-i-love-you-with-all-my-tart/5000247",
     breweryUrl: "https://untappd.com/w/evil-twin-brewing-nyc/420055",
@@ -1046,7 +1054,7 @@ export default [
     breweryName: "Evil Twin Brewing NYC",
     abv: 5.4,
     ibu: null,
-    score: 3.75997,
+    untappdScore: 3.75997,
     beerUrl:
       "https://untappd.com/b/evil-twin-brewing-nyc-greenhouse-rotbier-conditioned-on-american-oak-foudre/4236113",
     breweryUrl: "https://untappd.com/w/evil-twin-brewing-nyc/420055",
@@ -1063,7 +1071,7 @@ export default [
     breweryName: "Evil Twin Brewing NYC",
     abv: 5.5,
     ibu: null,
-    score: 3.59882,
+    untappdScore: 3.59882,
     beerUrl:
       "https://untappd.com/b/evil-twin-brewing-nyc-dr-jepper-cherry/5027406",
     breweryUrl: "https://untappd.com/w/evil-twin-brewing-nyc/420055",
@@ -1080,7 +1088,7 @@ export default [
     breweryName: "Evil Twin Brewing NYC",
     abv: 6,
     ibu: null,
-    score: 3.73479,
+    untappdScore: 3.73479,
     beerUrl:
       "https://untappd.com/b/evil-twin-brewing-nyc-buzzin-citra-cashmere/5201481",
     breweryUrl: "https://untappd.com/w/evil-twin-brewing-nyc/420055",
@@ -1097,7 +1105,7 @@ export default [
     breweryName: "KCBC - Kings County Brewers Collective",
     abv: 7.2,
     ibu: null,
-    score: 3.73479,
+    untappdScore: 3.73479,
     beerUrl:
       "https://untappd.com/b/kcbc-kings-county-brewers-collective-jurassic-bark/5209215",
     breweryUrl:
@@ -1115,7 +1123,7 @@ export default [
     breweryName: "Brooklyn Cider House",
     abv: 5.8,
     ibu: null,
-    score: 3.74823,
+    untappdScore: 3.74823,
     beerUrl: "https://untappd.com/b/brooklyn-cider-house-bch-rose/3157301",
     breweryUrl: "https://untappd.com/w/brooklyn-cider-house/234267",
     isVip: false,
@@ -1131,7 +1139,7 @@ export default [
     breweryName: "Brooklyn Cider House",
     abv: 5.8,
     ibu: null,
-    score: 3.77289,
+    untappdScore: 3.77289,
     beerUrl: "https://untappd.com/b/brooklyn-cider-house-half-sour/1541191",
     breweryUrl: "https://untappd.com/w/brooklyn-cider-house/234267",
     isVip: false,
@@ -1146,13 +1154,14 @@ export default [
     breweryName: "Ghostfish Brewing Company",
     abv: 5.5,
     ibu: 85,
-    score: 3.4052,
+    untappdScore: 3.4052,
     beerUrl:
       "https://untappd.com/b/ghostfish-brewing-company-grapefruit-ipa/1151251",
     breweryUrl: "https://untappd.com/w/ghostfish-brewing-company/168106",
     isVip: false,
     id: 1151251,
     table: 36,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1162,13 +1171,14 @@ export default [
     breweryName: "Ghostfish Brewing Company",
     abv: 4.5,
     ibu: 15,
-    score: 3.36151,
+    untappdScore: 3.36151,
     beerUrl:
       "https://untappd.com/b/ghostfish-brewing-company-meteor-shower-blonde-ale/1898191",
     breweryUrl: "https://untappd.com/w/ghostfish-brewing-company/168106",
     isVip: false,
     id: 1898191,
     table: 36,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1178,13 +1188,14 @@ export default [
     breweryName: "Ghostfish Brewing Company",
     abv: 4.5,
     ibu: 20,
-    score: 3.37528,
+    untappdScore: 3.37528,
     beerUrl:
       "https://untappd.com/b/ghostfish-brewing-company-shrouded-summit-belgian-white-ale/967407",
     breweryUrl: "https://untappd.com/w/ghostfish-brewing-company/168106",
     isVip: false,
     id: 967407,
     table: 36,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1194,13 +1205,14 @@ export default [
     breweryName: "Ludlam Island Brewery",
     abv: 5,
     ibu: null,
-    score: 3.68133,
+    untappdScore: 3.68133,
     beerUrl:
       "https://untappd.com/b/ludlam-island-brewery-i-really-like-nj/4818591",
     breweryUrl: "https://untappd.com/w/ludlam-island-brewery/211134",
     isVip: false,
     id: 4818591,
     table: 29,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1211,7 +1223,7 @@ export default [
     breweryName: "Ludlam Island Brewery",
     abv: 7.5,
     ibu: 30,
-    score: 4.01289,
+    untappdScore: 4.01289,
     beerUrl:
       "https://untappd.com/b/ludlam-island-brewery-water-guns-and-rainbows/2483089",
     breweryUrl: "https://untappd.com/w/ludlam-island-brewery/211134",
@@ -1228,7 +1240,7 @@ export default [
     breweryName: "Drekker Brewing Company",
     abv: 7.6,
     ibu: null,
-    score: 4.09087,
+    untappdScore: 4.09087,
     beerUrl:
       "https://untappd.com/b/drekker-brewing-company-slang-du-jour-strawberry-rhubarb-cobbler/4570183",
     breweryUrl: "https://untappd.com/w/drekker-brewing-company/161976",
@@ -1245,7 +1257,7 @@ export default [
     breweryName: "Jack's Hard Cider",
     abv: 5,
     ibu: null,
-    score: 3.52846,
+    untappdScore: 3.52846,
     beerUrl: "https://untappd.com/b/jack-s-hard-cider-peach/205003",
     breweryUrl: "https://untappd.com/w/jack-s-hard-cider/4755",
     isVip: false,
@@ -1261,7 +1273,7 @@ export default [
     breweryName: "Jack's Hard Cider",
     abv: 5.5,
     ibu: null,
-    score: 3.65537,
+    untappdScore: 3.65537,
     beerUrl: "https://untappd.com/b/jack-s-hard-cider-pear/1372036",
     breweryUrl: "https://untappd.com/w/jack-s-hard-cider/4755",
     isVip: false,
@@ -1277,7 +1289,7 @@ export default [
     breweryName: "Artifact Cider Project",
     abv: 5,
     ibu: null,
-    score: 3.73639,
+    untappdScore: 3.73639,
     beerUrl:
       "https://untappd.com/b/artifact-cider-project-feels-like-home-extra-juicy-home-sweet-home/5023543",
     breweryUrl: "https://untappd.com/w/artifact-cider-project/135898",
@@ -1294,7 +1306,7 @@ export default [
     breweryName: "Artifact Cider Project",
     abv: 6.8,
     ibu: null,
-    score: 3.74581,
+    untappdScore: 3.74581,
     beerUrl:
       "https://untappd.com/b/artifact-cider-project-feels-like-home-double-rum/5023328",
     breweryUrl: "https://untappd.com/w/artifact-cider-project/135898",
@@ -1311,7 +1323,7 @@ export default [
     breweryName: "Artifact Cider Project",
     abv: 5,
     ibu: null,
-    score: 3.7886,
+    untappdScore: 3.7886,
     beerUrl:
       "https://untappd.com/b/artifact-cider-project-feels-like-home-blueberry/5023528",
     breweryUrl: "https://untappd.com/w/artifact-cider-project/135898",
@@ -1328,7 +1340,7 @@ export default [
     breweryName: "SingleCut Beersmiths",
     abv: 7.7,
     ibu: null,
-    score: 3.88385,
+    untappdScore: 3.88385,
     beerUrl:
       "https://untappd.com/b/singlecut-beersmiths-surf-ddh-west-coast-iipa/4157952",
     breweryUrl: "https://untappd.com/w/singlecut-beersmiths/16555",
@@ -1345,7 +1357,7 @@ export default [
     breweryName: "SingleCut Beersmiths",
     abv: 5.2,
     ibu: 14,
-    score: 3.66169,
+    untappdScore: 3.66169,
     beerUrl:
       "https://untappd.com/b/singlecut-beersmiths-jan-alpine-white-lager/2762455",
     breweryUrl: "https://untappd.com/w/singlecut-beersmiths/16555",
@@ -1362,7 +1374,7 @@ export default [
     breweryName: "Stone Brewing",
     abv: 6.7,
     ibu: 35,
-    score: 3.74116,
+    untappdScore: 3.74116,
     beerUrl: "https://untappd.com/b/stone-brewing-stone-hazy-ipa/4302962",
     breweryUrl: "https://untappd.com/w/stone-brewing/1204",
     isVip: false,
@@ -1378,7 +1390,7 @@ export default [
     breweryName: "Stone Brewing",
     abv: 9.4,
     ibu: null,
-    score: 3.9115,
+    untappdScore: 3.9115,
     beerUrl:
       "https://untappd.com/b/stone-brewing-stone-delicious-double-ipa/5079869",
     breweryUrl: "https://untappd.com/w/stone-brewing/1204",
@@ -1395,7 +1407,7 @@ export default [
     breweryName: "Stone Brewing",
     abv: 7.7,
     ibu: 75,
-    score: 3.72984,
+    untappdScore: 3.72984,
     beerUrl: "https://untappd.com/b/stone-brewing-stone-delicious-ipa/392748",
     breweryUrl: "https://untappd.com/w/stone-brewing/1204",
     isVip: false,
@@ -1410,13 +1422,14 @@ export default [
     breweryName: "Twin Elephant Brewing Company",
     abv: 5,
     ibu: null,
-    score: 3.77326,
+    untappdScore: 3.77326,
     beerUrl:
       "https://untappd.com/b/twin-elephant-brewing-company-baron-von-slamminhausen/4138953",
     breweryUrl: "https://untappd.com/w/twin-elephant-brewing-company/268063",
     isVip: false,
     id: 4138953,
     table: 23,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1427,7 +1440,7 @@ export default [
     breweryName: "Twin Elephant Brewing Company",
     abv: 7.1,
     ibu: null,
-    score: 3.71614,
+    untappdScore: 3.71614,
     beerUrl:
       "https://untappd.com/b/twin-elephant-brewing-company-nosh-galaxy-and-zappa/5193141",
     breweryUrl: "https://untappd.com/w/twin-elephant-brewing-company/268063",
@@ -1444,7 +1457,7 @@ export default [
     breweryName: "Yards Brewing Co.",
     abv: 7.2,
     ibu: 33,
-    score: 3.64916,
+    untappdScore: 3.64916,
     beerUrl: "https://untappd.com/b/yards-brewing-co-star-jockey/4729819",
     breweryUrl: "https://untappd.com/w/yards-brewing-co/1383",
     isVip: false,
@@ -1460,7 +1473,7 @@ export default [
     breweryName: "Yards Brewing Co.",
     abv: 6.5,
     ibu: 50,
-    score: 3.67876,
+    untappdScore: 3.67876,
     beerUrl: "https://untappd.com/b/yards-brewing-co-level-up/4508574",
     breweryUrl: "https://untappd.com/w/yards-brewing-co/1383",
     isVip: false,
@@ -1476,7 +1489,7 @@ export default [
     breweryName: "Alementary Brewing Company",
     abv: 5.4,
     ibu: 28,
-    score: 3.53501,
+    untappdScore: 3.53501,
     beerUrl:
       "https://untappd.com/b/alementary-brewing-company-hackensack-lager/1650200",
     breweryUrl: "https://untappd.com/w/alementary-brewing-company/262130",
@@ -1493,7 +1506,7 @@ export default [
     breweryName: "Alementary Brewing Company",
     abv: 5.5,
     ibu: 25,
-    score: 3.81027,
+    untappdScore: 3.81027,
     beerUrl:
       "https://untappd.com/b/alementary-brewing-company-random-placement-of-things/2944442",
     breweryUrl: "https://untappd.com/w/alementary-brewing-company/262130",
@@ -1509,12 +1522,13 @@ export default [
     breweryName: "Alternate Ending Beer Co.",
     abv: 2.6,
     ibu: null,
-    score: 3.74092,
+    untappdScore: 3.74092,
     beerUrl: "https://untappd.com/b/alternate-ending-beer-co-pai-mei/5202721",
     breweryUrl: "https://untappd.com/w/alternate-ending-beer-co/479687",
     isVip: false,
     id: 5202721,
     table: 42,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1525,7 +1539,7 @@ export default [
     breweryName: "Alternate Ending Beer Co.",
     abv: 4.8,
     ibu: null,
-    score: 3.78347,
+    untappdScore: 3.78347,
     beerUrl:
       "https://untappd.com/b/alternate-ending-beer-co-the-royal-rug/4039050",
     breweryUrl: "https://untappd.com/w/alternate-ending-beer-co/479687",
@@ -1542,7 +1556,7 @@ export default [
     breweryName: "Ashton Brewing",
     abv: 6.3,
     ibu: null,
-    score: 3.78687,
+    untappdScore: 3.78687,
     beerUrl: "https://untappd.com/b/ashton-brewing-parent-trap/4085728",
     breweryUrl: "https://untappd.com/w/ashton-brewing/61894",
     isVip: false,
@@ -1558,7 +1572,7 @@ export default [
     breweryName: "Ashton Brewing",
     abv: 7.2,
     ibu: null,
-    score: 3.73337,
+    untappdScore: 3.73337,
     beerUrl: "https://untappd.com/b/ashton-brewing-phantom-galaxy/4054691",
     breweryUrl: "https://untappd.com/w/ashton-brewing/61894",
     isVip: false,
@@ -1574,7 +1588,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 7,
     ibu: null,
-    score: 3.83954,
+    untappdScore: 3.83954,
     beerUrl: "https://untappd.com/b/barrier-brewing-company-cryomax/3498211",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
     isVip: false,
@@ -1590,7 +1604,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 4.7,
     ibu: null,
-    score: 3.6453,
+    untappdScore: 3.6453,
     beerUrl: "https://untappd.com/b/barrier-brewing-company-king/4628704",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
     isVip: false,
@@ -1606,7 +1620,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 7.3,
     ibu: null,
-    score: 3.85974,
+    untappdScore: 3.85974,
     beerUrl:
       "https://untappd.com/b/barrier-brewing-company-money-ipa-dry-hopped-w-citra/697663",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
@@ -1623,7 +1637,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 5.7,
     ibu: null,
-    score: 3.69245,
+    untappdScore: 3.69245,
     beerUrl:
       "https://untappd.com/b/barrier-brewing-company-our-sour-14-sweet-dreams/4469338",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
@@ -1640,7 +1654,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 5.3,
     ibu: null,
-    score: 3.67539,
+    untappdScore: 3.67539,
     beerUrl:
       "https://untappd.com/b/barrier-brewing-company-ze-german-series-hefeweizen/4516356",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
@@ -1656,13 +1670,14 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 5.3,
     ibu: null,
-    score: 3.68687,
+    untappdScore: 3.68687,
     beerUrl:
       "https://untappd.com/b/barrier-brewing-company-ze-german-series-schwarzbier/4486307",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
     isVip: false,
     id: 4486307,
     table: 28,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1673,7 +1688,7 @@ export default [
     breweryName: "Bolero Snort Brewery",
     abv: 4.2,
     ibu: null,
-    score: 3.6528,
+    untappdScore: 3.6528,
     beerUrl: "https://untappd.com/b/bolero-snort-brewery-pebb-light/4544504",
     breweryUrl: "https://untappd.com/w/bolero-snort-brewery/6723",
     isVip: false,
@@ -1689,7 +1704,7 @@ export default [
     breweryName: "Bolero Snort Brewery",
     abv: 5.9,
     ibu: null,
-    score: 3.90084,
+    untappdScore: 3.90084,
     beerUrl:
       "https://untappd.com/b/bolero-snort-brewery-sour-pasture-calves-raspberry-lime/3182280",
     breweryUrl: "https://untappd.com/w/bolero-snort-brewery/6723",
@@ -1705,12 +1720,13 @@ export default [
     breweryName: "Bradley Brew Project",
     abv: 8.5,
     ibu: null,
-    score: 3.59297,
+    untappdScore: 3.59297,
     beerUrl: "https://untappd.com/b/bradley-brew-project-hibernation/5199667",
     breweryUrl: "https://untappd.com/w/bradley-brew-project/356747",
     isVip: false,
     id: 5199667,
     table: 22,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1721,7 +1737,7 @@ export default [
     breweryName: "Bradley Brew Project",
     abv: 8,
     ibu: null,
-    score: 3.83626,
+    untappdScore: 3.83626,
     beerUrl: "https://untappd.com/b/bradley-brew-project-holiday-break/4088584",
     breweryUrl: "https://untappd.com/w/bradley-brew-project/356747",
     isVip: false,
@@ -1737,7 +1753,7 @@ export default [
     breweryName: "Bradley Brew Project",
     abv: 8,
     ibu: null,
-    score: 3.74906,
+    untappdScore: 3.74906,
     beerUrl: "https://untappd.com/b/bradley-brew-project-skator/3090992",
     breweryUrl: "https://untappd.com/w/bradley-brew-project/356747",
     isVip: false,
@@ -1753,7 +1769,7 @@ export default [
     breweryName: "BrewDog",
     abv: 6.5,
     ibu: 40,
-    score: 3.71413,
+    untappdScore: 3.71413,
     beerUrl: "https://untappd.com/b/brewdog-elvis-juice/1441008",
     breweryUrl: "https://untappd.com/w/brewdog/241",
     isVip: false,
@@ -1769,7 +1785,7 @@ export default [
     breweryName: "BrewDog",
     abv: 5,
     ibu: null,
-    score: 3.68463,
+    untappdScore: 3.68463,
     beerUrl: "https://untappd.com/b/brewdog-hazy-jane/3560731",
     breweryUrl: "https://untappd.com/w/brewdog/241",
     isVip: false,
@@ -1785,7 +1801,7 @@ export default [
     breweryName: "BrewDog",
     abv: 5.2,
     ibu: 35,
-    score: 3.72266,
+    untappdScore: 3.72266,
     beerUrl: "https://untappd.com/b/brewdog-punk-ipa/5702",
     breweryUrl: "https://untappd.com/w/brewdog/241",
     isVip: false,
@@ -1801,7 +1817,7 @@ export default [
     breweryName: "BrewDog",
     abv: 6,
     ibu: null,
-    score: 3.69007,
+    untappdScore: 3.69007,
     beerUrl: "https://untappd.com/b/brewdog-usa-hellcat/4455052",
     breweryUrl: "https://untappd.com/w/brewdog-usa/426759",
     isVip: false,
@@ -1817,7 +1833,7 @@ export default [
     breweryName: "Brix City Brewing",
     abv: 8,
     ibu: null,
-    score: 4.16138,
+    untappdScore: 4.16138,
     beerUrl: "https://untappd.com/b/brix-city-brewing-heady-jams/2337873",
     breweryUrl: "https://untappd.com/w/brix-city-brewing/199006",
     isVip: false,
@@ -1833,7 +1849,7 @@ export default [
     breweryName: "Brix City Brewing",
     abv: 8,
     ibu: 50,
-    score: 4.0583,
+    untappdScore: 4.0583,
     beerUrl: "https://untappd.com/b/brix-city-brewing-strawberry-jams/2249300",
     breweryUrl: "https://untappd.com/w/brix-city-brewing/199006",
     isVip: false,
@@ -1849,7 +1865,7 @@ export default [
     breweryName: "Carton Brewing Company",
     abv: 4.2,
     ibu: 35,
-    score: 3.72382,
+    untappdScore: 3.72382,
     beerUrl: "https://untappd.com/b/carton-brewing-company-boat-beer/63631",
     breweryUrl: "https://untappd.com/w/carton-brewing-company/9558",
     isVip: false,
@@ -1865,7 +1881,7 @@ export default [
     breweryName: "Carton Brewing Company",
     abv: 10,
     ibu: 65,
-    score: 4.0016,
+    untappdScore: 4.0016,
     beerUrl: "https://untappd.com/b/carton-brewing-company-cosmonaut/1006782",
     breweryUrl: "https://untappd.com/w/carton-brewing-company/9558",
     isVip: false,
@@ -1881,7 +1897,7 @@ export default [
     breweryName: "Carton Brewing Company",
     abv: 4.2,
     ibu: 20,
-    score: 3.91695,
+    untappdScore: 3.91695,
     beerUrl: "https://untappd.com/b/carton-brewing-company-frusta/3819473",
     breweryUrl: "https://untappd.com/w/carton-brewing-company/9558",
     isVip: false,
@@ -1897,7 +1913,7 @@ export default [
     breweryName: "Carton Brewing Company",
     abv: 8.5,
     ibu: null,
-    score: 3.73681,
+    untappdScore: 3.73681,
     beerUrl:
       "https://untappd.com/b/carton-brewing-company-turn-up-the-hook-mosaic/5211361",
     breweryUrl: "https://untappd.com/w/carton-brewing-company/9558",
@@ -1914,7 +1930,7 @@ export default [
     breweryName: "Coastal Brew Works",
     abv: 5.3,
     ibu: 25,
-    score: 3.76457,
+    untappdScore: 3.76457,
     beerUrl:
       "https://untappd.com/b/coastal-brew-works-awkward-tanlines/4910907",
     breweryUrl: "https://untappd.com/w/coastal-brew-works/521557",
@@ -1931,7 +1947,7 @@ export default [
     breweryName: "Coastal Brew Works",
     abv: 5,
     ibu: 30,
-    score: 3.82944,
+    untappdScore: 3.82944,
     beerUrl:
       "https://untappd.com/b/coastal-brew-works-building-sandcastles-sabro-and-motueka/4839414",
     breweryUrl: "https://untappd.com/w/coastal-brew-works/521557",
@@ -1948,7 +1964,7 @@ export default [
     breweryName: "Czig Meister",
     abv: 6.2,
     ibu: 24,
-    score: 3.95293,
+    untappdScore: 3.95293,
     beerUrl: "https://untappd.com/b/czig-meister-sunset-sherbet/2810404",
     breweryUrl: "https://untappd.com/w/czig-meister/228703",
     isVip: false,
@@ -1964,7 +1980,7 @@ export default [
     breweryName: "Czig Meister",
     abv: 5.2,
     ibu: 15,
-    score: 3.75287,
+    untappdScore: 3.75287,
     beerUrl: "https://untappd.com/b/czig-meister-tiramisu-milk-porter/2507448",
     breweryUrl: "https://untappd.com/w/czig-meister/228703",
     isVip: false,
@@ -1979,13 +1995,14 @@ export default [
     breweryName: "Departed Soles Brewing Company",
     abv: 4.8,
     ibu: null,
-    score: 3.44805,
+    untappdScore: 3.44805,
     beerUrl:
       "https://untappd.com/b/departed-soles-brewing-company-new-jersey-ninja/2270119",
     breweryUrl: "https://untappd.com/w/departed-soles-brewing-company/191666",
     isVip: false,
     id: 2270119,
     table: 16,
+    substyle: null,
   },
   {
     thumbnail:
@@ -1996,7 +2013,7 @@ export default [
     breweryName: "Departed Soles Brewing Company",
     abv: 9.3,
     ibu: null,
-    score: 3.85065,
+    untappdScore: 3.85065,
     beerUrl:
       "https://untappd.com/b/departed-soles-brewing-company-s-mo-n-joe/3032202",
     breweryUrl: "https://untappd.com/w/departed-soles-brewing-company/191666",
@@ -2012,13 +2029,14 @@ export default [
     breweryName: "Departed Soles Brewing Company",
     abv: 4.2,
     ibu: null,
-    score: 3.70605,
+    untappdScore: 3.70605,
     beerUrl:
       "https://untappd.com/b/departed-soles-brewing-company-wave-runnering/5082064",
     breweryUrl: "https://untappd.com/w/departed-soles-brewing-company/191666",
     isVip: false,
     id: 5082064,
     table: 16,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2028,13 +2046,14 @@ export default [
     breweryName: "Departed Soles Brewing Company",
     abv: 8.7,
     ibu: null,
-    score: 3.63752,
+    untappdScore: 3.63752,
     beerUrl:
       "https://untappd.com/b/departed-soles-brewing-company-winter-winter-liquid-dinner/5217415",
     breweryUrl: "https://untappd.com/w/departed-soles-brewing-company/191666",
     isVip: false,
     id: 5217415,
     table: 16,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2045,7 +2064,7 @@ export default [
     breweryName: "Double Tap Brewing",
     abv: 7,
     ibu: 6,
-    score: 3.77387,
+    untappdScore: 3.77387,
     beerUrl: "https://untappd.com/b/double-tap-brewing-kite-and-key/5168984",
     breweryUrl: "https://untappd.com/w/double-tap-brewing/409017",
     isVip: false,
@@ -2061,7 +2080,7 @@ export default [
     breweryName: "Double Tap Brewing",
     abv: 5.6,
     ibu: 15,
-    score: 3.70551,
+    untappdScore: 3.70551,
     beerUrl: "https://untappd.com/b/double-tap-brewing-uncanny-wit/2885132",
     breweryUrl: "https://untappd.com/w/double-tap-brewing/409017",
     isVip: false,
@@ -2077,7 +2096,7 @@ export default [
     breweryName: "Five Dimes Brewery",
     abv: 8.5,
     ibu: null,
-    score: 3.72689,
+    untappdScore: 3.72689,
     beerUrl:
       "https://untappd.com/b/five-dimes-brewery-clever-goldfinch-double-ipa/4962512",
     breweryUrl: "https://untappd.com/w/five-dimes-brewery/511459",
@@ -2093,13 +2112,14 @@ export default [
     breweryName: "Five Dimes Brewery",
     abv: 5,
     ibu: null,
-    score: 3.69971,
+    untappdScore: 3.69971,
     beerUrl:
       "https://untappd.com/b/five-dimes-brewery-five-dimes-hard-seltzer/4588234",
     breweryUrl: "https://untappd.com/w/five-dimes-brewery/511459",
     isVip: false,
     id: 4588234,
     table: 18,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2110,7 +2130,7 @@ export default [
     breweryName: "Five Dimes Brewery",
     abv: 6,
     ibu: null,
-    score: 3.71508,
+    untappdScore: 3.71508,
     beerUrl:
       "https://untappd.com/b/five-dimes-brewery-home-for-the-holidays-peppermint-porter/5141595",
     breweryUrl: "https://untappd.com/w/five-dimes-brewery/511459",
@@ -2126,13 +2146,14 @@ export default [
     breweryName: "Five Dimes Brewery",
     abv: 5.4,
     ibu: null,
-    score: 3.70479,
+    untappdScore: 3.70479,
     beerUrl:
       "https://untappd.com/b/five-dimes-brewery-kinderkamack-kolsch/4938357",
     breweryUrl: "https://untappd.com/w/five-dimes-brewery/511459",
     isVip: false,
     id: 4938357,
     table: 18,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2143,7 +2164,7 @@ export default [
     breweryName: "Icarus Brewing",
     abv: 6.9,
     ibu: null,
-    score: 3.84633,
+    untappdScore: 3.84633,
     beerUrl: "https://untappd.com/b/icarus-brewing-our-riviera/4899139",
     breweryUrl: "https://untappd.com/w/icarus-brewing/312465",
     isVip: false,
@@ -2159,7 +2180,7 @@ export default [
     breweryName: "Icarus Brewing",
     abv: 6.5,
     ibu: null,
-    score: 3.94547,
+    untappdScore: 3.94547,
     beerUrl: "https://untappd.com/b/icarus-brewing-yacht-all-the-time/4846502",
     breweryUrl: "https://untappd.com/w/icarus-brewing/312465",
     isVip: false,
@@ -2175,7 +2196,7 @@ export default [
     breweryName: "Interboro Spirits & Ales",
     abv: 5.5,
     ibu: null,
-    score: 3.71364,
+    untappdScore: 3.71364,
     beerUrl:
       "https://untappd.com/b/interboro-spirits-and-ales-approved-stout/1804913",
     breweryUrl: "https://untappd.com/w/interboro-spirits-ales/279573",
@@ -2192,7 +2213,7 @@ export default [
     breweryName: "Interboro Spirits & Ales",
     abv: 6.7,
     ibu: 27,
-    score: 3.70256,
+    untappdScore: 3.70256,
     beerUrl:
       "https://untappd.com/b/interboro-spirits-and-ales-certified/4692697",
     breweryUrl: "https://untappd.com/w/interboro-spirits-ales/279573",
@@ -2209,7 +2230,7 @@ export default [
     breweryName: "Interboro Spirits & Ales",
     abv: 6,
     ibu: null,
-    score: 3.56375,
+    untappdScore: 3.56375,
     beerUrl:
       "https://untappd.com/b/interboro-spirits-and-ales-light-works-mosaic/4413377",
     breweryUrl: "https://untappd.com/w/interboro-spirits-ales/279573",
@@ -2226,7 +2247,7 @@ export default [
     breweryName: "Interboro Spirits & Ales",
     abv: 6,
     ibu: 15,
-    score: 3.56375,
+    untappdScore: 3.56375,
     beerUrl:
       "https://untappd.com/b/interboro-spirits-and-ales-light-works-passionfruit/4487339",
     breweryUrl: "https://untappd.com/w/interboro-spirits-ales/279573",
@@ -2243,7 +2264,7 @@ export default [
     breweryName: "Lord Hobo Brewing Co.",
     abv: 5.5,
     ibu: null,
-    score: 3.71166,
+    untappdScore: 3.71166,
     beerUrl: "https://untappd.com/b/lord-hobo-brewing-co-angelica/2600662",
     breweryUrl: "https://untappd.com/w/lord-hobo-brewing-co/199369",
     isVip: false,
@@ -2259,7 +2280,7 @@ export default [
     breweryName: "Lord Hobo Brewing Co.",
     abv: 8,
     ibu: 78,
-    score: 3.90884,
+    untappdScore: 3.90884,
     beerUrl: "https://untappd.com/b/lord-hobo-brewing-co-boomsauce/1066203",
     breweryUrl: "https://untappd.com/w/lord-hobo-brewing-co/199369",
     isVip: false,
@@ -2275,7 +2296,7 @@ export default [
     breweryName: "Lord Hobo Brewing Co.",
     abv: 6,
     ibu: null,
-    score: 3.76137,
+    untappdScore: 3.76137,
     beerUrl: "https://untappd.com/b/lord-hobo-brewing-co-juice-lord/4006585",
     breweryUrl: "https://untappd.com/w/lord-hobo-brewing-co/199369",
     isVip: false,
@@ -2291,7 +2312,7 @@ export default [
     breweryName: "Lord Hobo Brewing Co.",
     abv: null,
     ibu: null,
-    score: 3.65523,
+    untappdScore: 3.65523,
     beerUrl:
       "https://untappd.com/b/lord-hobo-brewing-co-life-non-alcoholic/5163007",
     breweryUrl: "https://untappd.com/w/lord-hobo-brewing-co/199369",
@@ -2308,7 +2329,7 @@ export default [
     breweryName: "Magnify Brewing Company",
     abv: 9,
     ibu: null,
-    score: 4.06932,
+    untappdScore: 4.06932,
     beerUrl:
       "https://untappd.com/b/magnify-brewing-company-drill-deeper/3995799",
     breweryUrl: "https://untappd.com/w/magnify-brewing-company/193269",
@@ -2325,7 +2346,7 @@ export default [
     breweryName: "Magnify Brewing Company",
     abv: 8,
     ibu: null,
-    score: 3.97993,
+    untappdScore: 3.97993,
     beerUrl:
       "https://untappd.com/b/magnify-brewing-company-puzzle-pieces/3299200",
     breweryUrl: "https://untappd.com/w/magnify-brewing-company/193269",
@@ -2342,7 +2363,7 @@ export default [
     breweryName: "Magnify Brewing Company",
     abv: 6.5,
     ibu: 60,
-    score: 3.81907,
+    untappdScore: 3.81907,
     beerUrl: "https://untappd.com/b/magnify-brewing-company-vine-shine/1020968",
     breweryUrl: "https://untappd.com/w/magnify-brewing-company/193269",
     isVip: false,
@@ -2358,7 +2379,7 @@ export default [
     breweryName: "Neshaminy Creek Brewing Company",
     abv: 8.8,
     ibu: 26,
-    score: 3.77169,
+    untappdScore: 3.77169,
     beerUrl:
       "https://untappd.com/b/neshaminy-creek-brewing-company-key-lime-shape-of-haze-to-come/5030280",
     breweryUrl: "https://untappd.com/w/neshaminy-creek-brewing-company/13327",
@@ -2375,7 +2396,7 @@ export default [
     breweryName: "Neshaminy Creek Brewing Company",
     abv: 4.5,
     ibu: 18,
-    score: 3.62249,
+    untappdScore: 3.62249,
     beerUrl:
       "https://untappd.com/b/neshaminy-creek-brewing-company-warehouse-lager/3707475",
     breweryUrl: "https://untappd.com/w/neshaminy-creek-brewing-company/13327",
@@ -2392,7 +2413,7 @@ export default [
     breweryName: "Pinelands Brewing Company",
     abv: 6,
     ibu: null,
-    score: 3.64085,
+    untappdScore: 3.64085,
     beerUrl: "https://untappd.com/b/pinelands-brewing-company-08087/1191132",
     breweryUrl: "https://untappd.com/w/pinelands-brewing-company/16882",
     isVip: false,
@@ -2407,13 +2428,14 @@ export default [
     breweryName: "Pinelands Brewing Company",
     abv: 6.1,
     ibu: null,
-    score: 3.71039,
+    untappdScore: 3.71039,
     beerUrl:
       "https://untappd.com/b/pinelands-brewing-company-alterior-motive/3925862",
     breweryUrl: "https://untappd.com/w/pinelands-brewing-company/16882",
     isVip: false,
     id: 3925862,
     table: 12,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2424,7 +2446,7 @@ export default [
     breweryName: "Pinelands Brewing Company",
     abv: 5.3,
     ibu: 15,
-    score: 3.77836,
+    untappdScore: 3.77836,
     beerUrl:
       "https://untappd.com/b/pinelands-brewing-company-evan-john-porter/575918",
     breweryUrl: "https://untappd.com/w/pinelands-brewing-company/16882",
@@ -2441,7 +2463,7 @@ export default [
     breweryName: "Pinelands Brewing Company",
     abv: 6.7,
     ibu: null,
-    score: 3.59821,
+    untappdScore: 3.59821,
     beerUrl:
       "https://untappd.com/b/pinelands-brewing-company-swamp-donkey/1368077",
     breweryUrl: "https://untappd.com/w/pinelands-brewing-company/16882",
@@ -2458,7 +2480,7 @@ export default [
     breweryName: "River Horse Brewing Co.",
     abv: 7.8,
     ibu: 50,
-    score: 3.7103,
+    untappdScore: 3.7103,
     beerUrl:
       "https://untappd.com/b/river-horse-brewing-co-ian-s-jubilee/5045842",
     breweryUrl: "https://untappd.com/w/river-horse-brewing-co/1058",
@@ -2475,7 +2497,7 @@ export default [
     breweryName: "River Horse Brewing Co.",
     abv: 5.3,
     ibu: null,
-    score: 3.43636,
+    untappdScore: 3.43636,
     beerUrl:
       "https://untappd.com/b/river-horse-brewing-co-roly-poly-pils/1460561",
     breweryUrl: "https://untappd.com/w/river-horse-brewing-co/1058",
@@ -2492,7 +2514,7 @@ export default [
     breweryName: "Seven Tribesmen Brewery",
     abv: 6.5,
     ibu: 30,
-    score: 3.78102,
+    untappdScore: 3.78102,
     beerUrl:
       "https://untappd.com/b/seven-tribesmen-brewery-dolce-amore/4689921",
     breweryUrl: "https://untappd.com/w/seven-tribesmen-brewery/459629",
@@ -2509,7 +2531,7 @@ export default [
     breweryName: "Seven Tribesmen Brewery",
     abv: 5.5,
     ibu: 33,
-    score: 3.73397,
+    untappdScore: 3.73397,
     beerUrl:
       "https://untappd.com/b/seven-tribesmen-brewery-pines-lake-pils/4225945",
     breweryUrl: "https://untappd.com/w/seven-tribesmen-brewery/459629",
@@ -2526,7 +2548,7 @@ export default [
     breweryName: "Seven Tribesmen Brewery",
     abv: 4.9,
     ibu: 22,
-    score: 3.71498,
+    untappdScore: 3.71498,
     beerUrl:
       "https://untappd.com/b/seven-tribesmen-brewery-tipsy-badger/5218163",
     breweryUrl: "https://untappd.com/w/seven-tribesmen-brewery/459629",
@@ -2543,7 +2565,7 @@ export default [
     breweryName: "The Seed: A Living Beer Project",
     abv: 5.4,
     ibu: null,
-    score: 4.02454,
+    untappdScore: 4.02454,
     beerUrl:
       "https://untappd.com/b/the-seed-a-living-beer-project-as-simple-as-shadows/4145235",
     breweryUrl: "https://untappd.com/w/the-seed-a-living-beer-project/386673",
@@ -2560,7 +2582,7 @@ export default [
     breweryName: "The Seed: A Living Beer Project",
     abv: 6,
     ibu: null,
-    score: 3.73593,
+    untappdScore: 3.73593,
     beerUrl:
       "https://untappd.com/b/the-seed-a-living-beer-project-lights-please-9/5211087",
     breweryUrl: "https://untappd.com/w/the-seed-a-living-beer-project/386673",
@@ -2577,7 +2599,7 @@ export default [
     breweryName: "The Seed: A Living Beer Project",
     abv: 12.5,
     ibu: null,
-    score: 3.9994,
+    untappdScore: 3.9994,
     beerUrl:
       "https://untappd.com/b/the-seed-a-living-beer-project-modern-rituals-emergence/4900737",
     breweryUrl: "https://untappd.com/w/the-seed-a-living-beer-project/386673",
@@ -2594,7 +2616,7 @@ export default [
     breweryName: "The Seed: A Living Beer Project",
     abv: 13,
     ibu: null,
-    score: 3.95656,
+    untappdScore: 3.95656,
     beerUrl:
       "https://untappd.com/b/the-seed-a-living-beer-project-modern-rituals-furtherance/5077369",
     breweryUrl: "https://untappd.com/w/the-seed-a-living-beer-project/386673",
@@ -2611,7 +2633,7 @@ export default [
     breweryName: "The Seed: A Living Beer Project",
     abv: 13.7,
     ibu: null,
-    score: 4.02036,
+    untappdScore: 4.02036,
     beerUrl:
       "https://untappd.com/b/the-seed-a-living-beer-project-modern-rituals-hibernation/4726327",
     breweryUrl: "https://untappd.com/w/the-seed-a-living-beer-project/386673",
@@ -2628,7 +2650,7 @@ export default [
     breweryName: "Toms River Brewing",
     abv: 6,
     ibu: 38,
-    score: 3.73039,
+    untappdScore: 3.73039,
     beerUrl: "https://untappd.com/b/toms-river-brewing-parkway-phantom/5204717",
     breweryUrl: "https://untappd.com/w/toms-river-brewing/56206",
     isVip: false,
@@ -2644,7 +2666,7 @@ export default [
     breweryName: "Tröegs Independent Brewing",
     abv: 6.5,
     ibu: null,
-    score: 3.75719,
+    untappdScore: 3.75719,
     beerUrl:
       "https://untappd.com/b/troegs-independent-brewing-hop-horizon-ipa/4684618",
     breweryUrl: "https://untappd.com/w/troegs-independent-brewing/2583",
@@ -2661,7 +2683,7 @@ export default [
     breweryName: "Tröegs Independent Brewing",
     abv: 4.5,
     ibu: 45,
-    score: 3.44528,
+    untappdScore: 3.44528,
     beerUrl:
       "https://untappd.com/b/troegs-independent-brewing-sunshine-pils/3841",
     breweryUrl: "https://untappd.com/w/troegs-independent-brewing/2583",
@@ -2678,7 +2700,7 @@ export default [
     breweryName: "KCBC - Kings County Brewers Collective",
     abv: 4.8,
     ibu: null,
-    score: 3.75999,
+    untappdScore: 3.75999,
     beerUrl:
       "https://untappd.com/b/kcbc-kings-county-brewers-collective-infinite-machine/4918643",
     breweryUrl:
@@ -2696,7 +2718,7 @@ export default [
     breweryName: "Hackensack Brewing",
     abv: 8.1,
     ibu: null,
-    score: 3.75568,
+    untappdScore: 3.75568,
     beerUrl:
       "https://untappd.com/b/hackensack-brewing-hackensack-comet/4530095",
     breweryUrl: "https://untappd.com/w/hackensack-brewing/417861",
@@ -2713,7 +2735,7 @@ export default [
     breweryName: "ManaFirkin Brewing Co.",
     abv: null,
     ibu: null,
-    score: 3.71618,
+    untappdScore: 3.71618,
     beerUrl:
       "https://untappd.com/b/manafirkin-brewing-co-coconut-coffee-cobra-kai-pa/3233782",
     breweryUrl: "https://untappd.com/w/manafirkin-brewing-co/341365",
@@ -2729,12 +2751,13 @@ export default [
     breweryName: "Montclair Brewery",
     abv: 7.8,
     ibu: null,
-    score: 3.66317,
+    untappdScore: 3.66317,
     beerUrl: "https://untappd.com/b/montclair-brewery-baobiere/3209358",
     breweryUrl: "https://untappd.com/w/montclair-brewery/405858",
     isVip: true,
     id: 3209358,
     table: 58,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2745,7 +2768,7 @@ export default [
     breweryName: "Gearblock Brewing Company",
     abv: 10,
     ibu: null,
-    score: 3.75807,
+    untappdScore: 3.75807,
     beerUrl:
       "https://untappd.com/b/gearblock-brewing-company-soaked-stave/5146904",
     breweryUrl: "https://untappd.com/w/gearblock-brewing-company/398869",
@@ -2761,13 +2784,14 @@ export default [
     breweryName: "Backward Flag Brewing Co",
     abv: 5.1,
     ibu: null,
-    score: 3.82426,
+    untappdScore: 3.82426,
     beerUrl:
       "https://untappd.com/b/backward-flag-brewing-co-mama-s-table/1290678",
     breweryUrl: "https://untappd.com/w/backward-flag-brewing-co/227511",
     isVip: true,
     id: 1290678,
     table: 50,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2778,7 +2802,7 @@ export default [
     breweryName: "902 Brewing",
     abv: 4.5,
     ibu: null,
-    score: 3.73102,
+    untappdScore: 3.73102,
     beerUrl: "https://untappd.com/b/902-brewing-peach-sour/4437116",
     breweryUrl: "https://untappd.com/w/902-brewing/42165",
     isVip: true,
@@ -2794,7 +2818,7 @@ export default [
     breweryName: "Tripping Animals Brewing Co.",
     abv: 6,
     ibu: null,
-    score: 4.0334,
+    untappdScore: 4.0334,
     beerUrl:
       "https://untappd.com/b/tripping-animals-brewing-co-who-loves-orange-soda/4398251",
     breweryUrl: "https://untappd.com/w/tripping-animals-brewing-co/309155",
@@ -2811,7 +2835,7 @@ export default [
     breweryName: "450 North Brewing Company",
     abv: null,
     ibu: null,
-    score: 3.78714,
+    untappdScore: 3.78714,
     beerUrl:
       "https://untappd.com/b/450-north-brewing-company-slushy-xl-ninja-mantis/5162691",
     breweryUrl: "https://untappd.com/w/450-north-brewing-company/40301",
@@ -2828,7 +2852,7 @@ export default [
     breweryName: "High Point Brewing Company (New Jersey)",
     abv: 9.5,
     ibu: 25,
-    score: 3.72537,
+    untappdScore: 3.72537,
     beerUrl:
       "https://untappd.com/b/high-point-brewing-company-new-jersey-ramstein-winter-wheat/5610",
     breweryUrl:
@@ -2845,12 +2869,13 @@ export default [
     breweryName: "Muckraker Beermaker",
     abv: 5,
     ibu: null,
-    score: 3.7003,
+    untappdScore: 3.7003,
     beerUrl: "https://untappd.com/b/muckraker-beermaker-madman-s-drum/5164967",
     breweryUrl: "https://untappd.com/w/muckraker-beermaker/80412",
     isVip: true,
     id: 5164967,
     table: 41,
+    substyle: null,
   },
   {
     thumbnail:
@@ -2861,7 +2886,7 @@ export default [
     breweryName: "Jersey Girl Brewing",
     abv: 4.5,
     ibu: null,
-    score: 3.68462,
+    untappdScore: 3.68462,
     beerUrl: "https://untappd.com/b/jersey-girl-brewing-shark-attack/4733940",
     breweryUrl: "https://untappd.com/w/jersey-girl-brewing/194453",
     isVip: true,
@@ -2877,7 +2902,7 @@ export default [
     breweryName: "Evil Twin Brewing NYC",
     abv: 8,
     ibu: null,
-    score: 3.70277,
+    untappdScore: 3.70277,
     beerUrl:
       "https://untappd.com/b/evil-twin-brewing-nyc-you-re-my-main-squeeze/5201482",
     breweryUrl: "https://untappd.com/w/evil-twin-brewing-nyc/420055",
@@ -2894,7 +2919,7 @@ export default [
     breweryName: "Brooklyn Cider House",
     abv: 6.9,
     ibu: null,
-    score: 3.49247,
+    untappdScore: 3.49247,
     beerUrl: "https://untappd.com/b/brooklyn-cider-house-raw/2177865",
     breweryUrl: "https://untappd.com/w/brooklyn-cider-house/234267",
     isVip: true,
@@ -2910,7 +2935,7 @@ export default [
     breweryName: "Ludlam Island Brewery",
     abv: 8,
     ibu: null,
-    score: 4.09442,
+    untappdScore: 4.09442,
     beerUrl:
       "https://untappd.com/b/ludlam-island-brewery-thunder-jacket/2359298",
     breweryUrl: "https://untappd.com/w/ludlam-island-brewery/211134",
@@ -2927,7 +2952,7 @@ export default [
     breweryName: "Drekker Brewing Company",
     abv: 5.9,
     ibu: null,
-    score: 3.97732,
+    untappdScore: 3.97732,
     beerUrl:
       "https://untappd.com/b/drekker-brewing-company-slang-du-jour-strawberry-shortcake/5093218",
     breweryUrl: "https://untappd.com/w/drekker-brewing-company/161976",
@@ -2944,7 +2969,7 @@ export default [
     breweryName: "Drekker Brewing Company",
     abv: 7,
     ibu: null,
-    score: 4.10964,
+    untappdScore: 4.10964,
     beerUrl:
       "https://untappd.com/b/drekker-brewing-company-ice-ice-prrrty-guava-lemon-lime-coconut/4880320",
     breweryUrl: "https://untappd.com/w/drekker-brewing-company/161976",
@@ -2961,7 +2986,7 @@ export default [
     breweryName: "SingleCut Beersmiths",
     abv: 4.2,
     ibu: 10,
-    score: 3.66255,
+    untappdScore: 3.66255,
     beerUrl:
       "https://untappd.com/b/singlecut-beersmiths-amp-punch-blackberry-fruited-sour/5098943",
     breweryUrl: "https://untappd.com/w/singlecut-beersmiths/16555",
@@ -2978,7 +3003,7 @@ export default [
     breweryName: "Stone Brewing",
     abv: 8.5,
     ibu: 60,
-    score: 3.89637,
+    untappdScore: 3.89637,
     beerUrl:
       "https://untappd.com/b/stone-brewing-stone-fear-movie-lions-double-ipa/2495079",
     breweryUrl: "https://untappd.com/w/stone-brewing/1204",
@@ -2995,7 +3020,7 @@ export default [
     breweryName: "Twin Elephant Brewing Company",
     abv: 5.8,
     ibu: null,
-    score: 3.98585,
+    untappdScore: 3.98585,
     beerUrl:
       "https://untappd.com/b/twin-elephant-brewing-company-lil-shimmy-ye/1554567",
     breweryUrl: "https://untappd.com/w/twin-elephant-brewing-company/268063",
@@ -3012,7 +3037,7 @@ export default [
     breweryName: "Seven Tribesmen Brewery",
     abv: 5,
     ibu: 43,
-    score: 3.73167,
+    untappdScore: 3.73167,
     beerUrl:
       "https://untappd.com/b/seven-tribesmen-brewery-hot-paprika/4839315",
     breweryUrl: "https://untappd.com/w/seven-tribesmen-brewery/459629",
@@ -3029,7 +3054,7 @@ export default [
     breweryName: "Brix City Brewing",
     abv: 8,
     ibu: null,
-    score: 3.9038,
+    untappdScore: 3.9038,
     beerUrl: "https://untappd.com/b/brix-city-brewing-digital-delay/4397792",
     breweryUrl: "https://untappd.com/w/brix-city-brewing/199006",
     isVip: true,
@@ -3045,7 +3070,7 @@ export default [
     breweryName: "Double Tap Brewing",
     abv: 5.5,
     ibu: 28,
-    score: 3.72814,
+    untappdScore: 3.72814,
     beerUrl: "https://untappd.com/b/double-tap-brewing-the-boot/4999803",
     breweryUrl: "https://untappd.com/w/double-tap-brewing/409017",
     isVip: true,
@@ -3061,7 +3086,7 @@ export default [
     breweryName: "Icarus Brewing",
     abv: 7.1,
     ibu: null,
-    score: 3.80164,
+    untappdScore: 3.80164,
     beerUrl: "https://untappd.com/b/icarus-brewing-pound-of-feathers/3743588",
     breweryUrl: "https://untappd.com/w/icarus-brewing/312465",
     isVip: true,
@@ -3076,12 +3101,13 @@ export default [
     breweryName: "Czig Meister",
     abv: 9.4,
     ibu: 21,
-    score: 3.76951,
+    untappdScore: 3.76951,
     beerUrl: "https://untappd.com/b/czig-meister-unholy-ritual/2433486",
     breweryUrl: "https://untappd.com/w/czig-meister/228703",
     isVip: true,
     id: 2433486,
     table: 26,
+    substyle: null,
   },
   {
     thumbnail:
@@ -3091,12 +3117,13 @@ export default [
     breweryName: "Toms River Brewing",
     abv: 5,
     ibu: 18,
-    score: 3.6619,
+    untappdScore: 3.6619,
     beerUrl: "https://untappd.com/b/toms-river-brewing-stick-toss/5066963",
     breweryUrl: "https://untappd.com/w/toms-river-brewing/56206",
     isVip: true,
     id: 5066963,
     table: 55,
+    substyle: null,
   },
   {
     thumbnail:
@@ -3107,7 +3134,7 @@ export default [
     breweryName: "Barrier Brewing Company",
     abv: 12,
     ibu: null,
-    score: 3.90231,
+    untappdScore: 3.90231,
     beerUrl:
       "https://untappd.com/b/barrier-brewing-company-crowning-achievement/1523851",
     breweryUrl: "https://untappd.com/w/barrier-brewing-company/4171",
@@ -3124,7 +3151,7 @@ export default [
     breweryName: "Magnify Brewing Company",
     abv: 12,
     ibu: null,
-    score: 3.8975,
+    untappdScore: 3.8975,
     beerUrl:
       "https://untappd.com/b/magnify-brewing-company-pastrytonium/4570080",
     breweryUrl: "https://untappd.com/w/magnify-brewing-company/193269",
@@ -3141,7 +3168,7 @@ export default [
     breweryName: "Alternate Ending Beer Co.",
     abv: 8.2,
     ibu: null,
-    score: 3.87155,
+    untappdScore: 3.87155,
     beerUrl:
       "https://untappd.com/b/alternate-ending-beer-co-chuckleheads-part-6-citra-galaxy/4582953",
     breweryUrl: "https://untappd.com/w/alternate-ending-beer-co/479687",
@@ -3157,13 +3184,14 @@ export default [
     breweryName: "Alementary Brewing Company",
     abv: 5,
     ibu: 12,
-    score: 3.71132,
+    untappdScore: 3.71132,
     beerUrl:
       "https://untappd.com/b/alementary-brewing-company-colorado-common-folklore/5143273",
     breweryUrl: "https://untappd.com/w/alementary-brewing-company/262130",
     isVip: true,
     id: 5143273,
     table: 30,
+    substyle: null,
   },
   {
     thumbnail:
@@ -3174,7 +3202,7 @@ export default [
     breweryName: "Bradley Brew Project",
     abv: 5.4,
     ibu: null,
-    score: 3.86163,
+    untappdScore: 3.86163,
     beerUrl: "https://untappd.com/b/bradley-brew-project-unicorn-girls/2246027",
     breweryUrl: "https://untappd.com/w/bradley-brew-project/356747",
     isVip: true,
@@ -3190,7 +3218,7 @@ export default [
     breweryName: "Ashton Brewing",
     abv: 10.5,
     ibu: null,
-    score: 3.73145,
+    untappdScore: 3.73145,
     beerUrl:
       "https://untappd.com/b/ashton-brewing-fraxinus-in-mezcal-barrels/4770858",
     breweryUrl: "https://untappd.com/w/ashton-brewing/61894",
@@ -3207,7 +3235,7 @@ export default [
     breweryName: "Bolero Snort Brewery",
     abv: 11.3,
     ibu: null,
-    score: 3.7856,
+    untappdScore: 3.7856,
     beerUrl:
       "https://untappd.com/b/bolero-snort-brewery-bergen-county-bull-stout-banana-foster-2022/5119051",
     breweryUrl: "https://untappd.com/w/bolero-snort-brewery/6723",
@@ -3224,12 +3252,13 @@ export default [
     breweryName: "Wild East Brewing Co.",
     abv: 10.2,
     ibu: 65,
-    score: 3.75946,
+    untappdScore: 3.75946,
     beerUrl:
       "https://untappd.com/b/wild-east-brewing-co-turbines-and-blackbirds/4606421",
     breweryUrl: "https://untappd.com/w/wild-east-brewing-co/391055",
     isVip: true,
     id: 4606421,
+    table: null,
   },
   {
     thumbnail:
@@ -3240,7 +3269,7 @@ export default [
     breweryName: "Neshaminy Creek Brewing Company",
     abv: 12.5,
     ibu: 17,
-    score: 3.87439,
+    untappdScore: 3.87439,
     beerUrl:
       "https://untappd.com/b/neshaminy-creek-brewing-company-rough-puff/5030289",
     breweryUrl: "https://untappd.com/w/neshaminy-creek-brewing-company/13327",
@@ -3257,7 +3286,7 @@ export default [
     breweryName: "Pinelands Brewing Company",
     abv: 8.3,
     ibu: null,
-    score: 3.6915,
+    untappdScore: 3.6915,
     beerUrl:
       "https://untappd.com/b/pinelands-brewing-company-what-flavor-is-haze/3824184",
     breweryUrl: "https://untappd.com/w/pinelands-brewing-company/16882",
@@ -3274,7 +3303,7 @@ export default [
     breweryName: "BrewDog",
     abv: 7.2,
     ibu: null,
-    score: 3.74509,
+    untappdScore: 3.74509,
     beerUrl: "https://untappd.com/b/brewdog-usa-hazy-jane-mango/4480657",
     breweryUrl: "https://untappd.com/w/brewdog-usa/426759",
     isVip: true,
@@ -3289,13 +3318,14 @@ export default [
     breweryName: "River Horse Brewing Co.",
     abv: 6.6,
     ibu: 28,
-    score: 3.68924,
+    untappdScore: 3.68924,
     beerUrl:
       "https://untappd.com/b/river-horse-brewing-co-cable-knit-hug/5173285",
     breweryUrl: "https://untappd.com/w/river-horse-brewing-co/1058",
     isVip: true,
     id: 5173285,
     table: 9,
+    substyle: null,
   },
   {
     thumbnail:
@@ -3306,7 +3336,7 @@ export default [
     breweryName: "Tröegs Independent Brewing",
     abv: 7.5,
     ibu: 93,
-    score: 3.99336,
+    untappdScore: 3.99336,
     beerUrl:
       "https://untappd.com/b/troegs-independent-brewing-nugget-nectar/3757",
     breweryUrl: "https://untappd.com/w/troegs-independent-brewing/2583",
@@ -3323,7 +3353,7 @@ export default [
     breweryName: "Coastal Brew Works",
     abv: 6.5,
     ibu: 35,
-    score: 3.80816,
+    untappdScore: 3.80816,
     beerUrl:
       "https://untappd.com/b/coastal-brew-works-nautical-twilight/5141698",
     breweryUrl: "https://untappd.com/w/coastal-brew-works/521557",
@@ -3331,4 +3361,4 @@ export default [
     id: 5141698,
     table: 45,
   },
-];
+] as const;

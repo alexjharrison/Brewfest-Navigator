@@ -1,9 +1,12 @@
 <template>
-  <div>
-    <FloatingActionButton />
-    <Sidebar />
-    <Navbar />
-  </div>
+  <main>
+    <template v-if="!store.filterState.selectedBeerId">
+      <FloatingActionButton />
+      <Sidebar />
+      <Navbar />
+    </template>
+    <BeerDetailView v-else />
+  </main>
 </template>
 
 <script setup lang="ts">
@@ -11,6 +14,7 @@ import Sidebar from './components/filter/Sidebar.vue';
 import FloatingActionButton from './components/FloatingActionButton.vue';
 import Navbar from './components/Navbar.vue';
 import { useStore } from './composables/store';
+import BeerDetailView from './views/BeerDetailView.vue';
 
 const store = useStore()
 </script>

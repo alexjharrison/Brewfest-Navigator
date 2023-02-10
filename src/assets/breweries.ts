@@ -61,4 +61,4 @@ export default {
   "Jersey Girl Brewing": 60,
   "Last Wave Brewing Co.": 61,
   "Wild Air Beerworks": 62,
-};
+} as const;
