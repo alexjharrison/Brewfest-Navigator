@@ -1,5 +1,5 @@
 <template>
-    <div class="px-2">
+    <div class="px-2" v-if="selectedBeer">
         <div class="flex align-items-center">
             <Button @click="updateFilterState({ selectedBeerId: null })" icon="pi pi-arrow-left"
                 class="p-button-rounded p-button-success m-4 flex-shrink-0" />
@@ -29,25 +29,32 @@
         <section>
             <div class="flex justify-content-around mt-4 text-xl">
                 <div class="field-checkbox">
-                    <Checkbox :disabled="!!beer.meta?.triedAt" inputId="tried" :model-value="beer.meta?.triedAt"
-                        :binary="true" @change="updateBeerState({ triedAt: new Date() })" />
+                    <Checkbox inputId="tried" v-model="beerMeta[String(selectedBeer.id)].tried" :binary="true" />
                     <label for="tried">Tried It!</label>
                 </div>
                 <div class="field-checkbox">
-                    <Checkbox :disabled="!!beer.meta?.ranOut" inputId="kicked" :model-value="beer.meta?.ranOut"
-                        :binary="true" @change="updateBeerState({ ranOut: true })" />
+                    <Checkbox inputId="kicked" v-model="beerMeta[String(selectedBeer.id)].ranOut" :binary="true" />
                     <label for="kicked">Kicked?</label>
                 </div>
             </div>
             <div class="p-4">
                 <h3 class="text-xl m-1 font-medium">Excitement Score {{ beer.meta?.curiosityScore }}</h3>
-                <Slider class="my-4" :model-value="beer.meta?.curiosityScore" :step=".5" :min="0" :max="10" />
+                <Slider class="my-4" v-model="beerMeta[String(selectedBeer.id)].curiosityScore" :step="1" :min="0"
+                    :max="5" />
                 <h3 class="text-xl m-1 font-medium">For the Style Score {{ beer.meta?.styleScore }}</h3>
-                <Slider class="my-4" :model-value="beer.meta?.styleScore" :step=".5" :min="0" :max="10" />
+                <Slider class="my-4" v-model="beerMeta[String(selectedBeer.id)].styleScore" :step=".5" :min="0"
+                    :max="10" />
                 <h3 class="text-xl m-1 font-medium">Overall Score {{ beer.meta?.overallScore }}</h3>
-                <Slider class="my-4" :model-value="beer.meta?.overallScore" :step=".5" :min="0" :max="10" />
+                <Slider class="my-4" v-model="beerMeta[String(selectedBeer.id)].overallScore" :step=".5" :min="0"
+                    :max="10" />
+
+                <InputText class="w-full my-3" v-model="beerMeta[String(selectedBeer.id)].comment"
+                    placeholder="Thoughts go here" />
             </div>
         </section>
+        <div class="p-2">
+            <img :src="`/L${floor}.png`" alt="map" class="w-full">
+        </div>
     </div>
 </template>
 
@@ -55,10 +62,11 @@
 import Button from 'primevue/button';
 import Checkbox from 'primevue/checkbox'
 import Slider from 'primevue/slider'
-import { computed } from 'vue';
+import InputText from 'primevue/inputtext'
+import { computed, watchEffect } from 'vue';
 import { BeerWithMeta, useStore } from '../composables/store';
 
-const { updateFilterState, selectedBeer, updateBeerState } = useStore()
+const { updateFilterState, selectedBeer, beerMeta } = useStore()
 const beer = computed(() => selectedBeer.value as unknown as BeerWithMeta)
 const floor = computed(() => {
     if (beer.value.table === null) return "???"
@@ -77,5 +85,10 @@ const floor = computed(() => {
     }, 0)
 })
 
+watchEffect(() => {
+    if (beer.value.meta.tried) {
+        beerMeta.value[String(selectedBeer.value?.id)].triedAt = new Date()
+    }
+})
 </script>
 

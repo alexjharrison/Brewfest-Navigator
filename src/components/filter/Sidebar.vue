@@ -19,6 +19,12 @@
 
         <h3>Filter Out Styles</h3>
         <MultiSelect class="w-full" v-model="filterState.stylesOmitted" :options="allStyles" display="chip" />
+
+        <div class="field-checkbox mt-4">
+            <Checkbox inputId="binary" v-model="filterState.disableFilters" :binary="true" />
+            <label for="binary">Disable All Filters</label>
+        </div>
+
     </Sidebar>
 </template>
 
@@ -28,6 +34,8 @@ import RadioButton from 'primevue/radiobutton'
 import MultiSelect from 'primevue/multiselect'
 import Dropdown from 'primevue/dropdown'
 import { useStore } from '../../composables/store';
+import Checkbox from 'primevue/checkbox';
+import Button from 'primevue/button';
 
 const { isSidebarOpen, filterState, allBeers } = useStore()
 

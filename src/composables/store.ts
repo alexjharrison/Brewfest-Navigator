@@ -5,12 +5,13 @@ import { computed, reactive } from "vue";
 import { useLocalStorage } from "@vueuse/core";
 
 export type BeerMeta = {
-  styleScore?: number;
-  overallScore?: number;
-  triedAt?: Date;
-  curiosityScore?: number;
-  ranOut?: boolean;
-  comment?: string;
+  styleScore: number;
+  overallScore: number;
+  tried: boolean;
+  triedAt: Date | null;
+  curiosityScore: number;
+  ranOut: boolean;
+  comment: string;
 };
 export type Filters = {
   floorSelected: number | null;
@@ -33,9 +34,15 @@ export type Filters = {
 
 export type BeerWithMeta = typeof beers[number] & { meta: BeerMeta };
 
-const isSidebarOpen = ref(false);
-const beerMeta = useLocalStorage<Record<number, BeerMeta>>("meta", {});
-const filterState = reactive<Filters>({
+const initMeta = beers.reduce(
+  (acc, beer) => ({
+    ...acc,
+    [String(beer.id)]: {},
+  }),
+  {}
+);
+
+const initFilterState: Filters = {
   floorSelected: null,
   breweriesSelected: [],
   stylesSelected: [],
@@ -45,7 +52,11 @@ const filterState = reactive<Filters>({
   selectedBeerId: null,
   disableFilters: false,
   sortField: "curiosityScore",
-});
+};
+
+const isSidebarOpen = ref(false);
+const beerMeta = useLocalStorage<Record<string, BeerMeta>>("meta", initMeta);
+const filterState = reactive<Filters>(initFilterState);
 
 export function useStore() {
   const selectedBeer = computed<BeerWithMeta | null>(() => {
@@ -59,10 +70,6 @@ export function useStore() {
 
   function updateFilterState(newFilters: Partial<Filters>) {
     Object.assign(filterState, newFilters);
-  }
-  function updateBeerState(newBeerMeta: Partial<BeerMeta>) {
-    if (!filterState.selectedBeerId) return;
-    Object.assign(beerMeta.value[filterState.selectedBeerId], newBeerMeta);
   }
 
   const visibleBeers = computed<BeerWithMeta[]>(() => {
@@ -94,7 +101,7 @@ export function useStore() {
     return (
       beersWithMeta
         // remove no longer relevant
-        .filter(beer => !beer.meta?.ranOut && !beer.meta?.triedAt)
+        .filter(beer => !beer.meta?.ranOut && !beer.meta?.tried)
         // specific substyle check
         .filter(beer => {
           if (filterState.substylesSelected.length === 0) return true;
@@ -167,6 +174,5 @@ export function useStore() {
     allBeers: beers,
     beerMeta,
     updateFilterState,
-    updateBeerState,
   };
 }
